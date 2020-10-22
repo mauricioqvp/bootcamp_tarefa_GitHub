@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-bar{
+    background: #1890FF;
+    position: absolute;
+    width: 1440px;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+}
+
+.main-bar-content {
+    position: absolute;
+    width: 248px;
+    height: 32px;
+    left: 41px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    /*display: flex;*/
+    align-items: center;
+
+    color: #FFFFFF;
+}

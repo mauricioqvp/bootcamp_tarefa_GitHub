@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&family=Roboto&display=swap');
+
+.title {
+    position: absolute;
+    width: 580px;
+    height: 128px;
+    left: 120px;
+    top: 179px;
+    
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    /* or 133% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    
+    color: #062847;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 612px;
+    height: 216px;
+    left: 120px;
+    top: 331px;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    color: #5A6774;
+
+    margin-top: 24px;
+}
+
+.btn-comecar {
+    /* position: absolute; */
+    width: 101px;
+    height: 40px;
+    left: 120px;
+    top: 595px;
+
+    background: #1890FF;
+    border-radius: 4px;
+
+    margin-top: 48px;
+}
+
+.btn-comecar-text {
+    /* position: absolute;  */
+    /* height: 24px; */
+    /* left: 138px;
+    right: 1237px; */
+    /* top: calc(50% - 24px/2 + 165px); */
+
+    /* Regular / 16 px | 24 px */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey / grey-1 */
+
+    color: #FFFFFF;
+
+    margin-left: 18px;
+}
