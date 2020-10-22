@@ -1,12 +1,12 @@
 import React from 'react';
-import Content from '../../Components/Content';
+import Search from '../../Components/Search';
 import Topbar from '../../Components/Topbar';
-import './style.css';
+import './styles.css';
 
 const Home = () => (
     <>
         <Topbar />
-        <Content />
+        <Search />
     </>
 );
 

@@ -1,13 +1,17 @@
 import React from 'react';
-import Background from '../../Components/Background';
 import Topbar from '../../Components/Topbar';
 import './style.css';
 
 const Busca = () => (
     <div>
         <Topbar />
-        <Background />
-        <h1>Busca</h1>
+        <h1 className="search-content">
+            <div className="rectangle">
+                <p className="search-content-block">
+                    Encontre um perfil Github
+                </p>
+            </div>
+        </h1>
     </div>
 )
 
